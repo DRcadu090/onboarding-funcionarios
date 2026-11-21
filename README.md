@@ -53,8 +53,9 @@ Os protótipos das três telas do sistema estão disponíveis na pasta `prototip
 
 [Repositório no GitHub](https://github.com/DRcadu090/onboarding-funcionarios)
 
-## Autor
+## Autor e integrante da equipe
 
-Daniel de Castro Ribeiro
+- **Nome:** Daniel de Castro Ribeiro
+- **Participação:** Desenvolvimento individual do projeto.
 
 Projeto acadêmico de Desenvolvimento Web.
