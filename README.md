@@ -2,42 +2,42 @@
 
 ## Sobre o projeto
 
-Este projeto consiste no desenvolvimento de um site para ajudar os novos funcionários a se adaptarem à empresa nos primeiros dias de trabalho.
+Este projeto consiste no desenvolvimento de um site para ajudar novos funcionários a se adaptarem à empresa nos primeiros dias de trabalho.
 
-A ideia é reunir em um só lugar algumas informações importantes, como tarefas que precisam ser realizadas, documentos da empresa e informações sobre treinamentos. Assim, o funcionário consegue encontrar o que precisa de forma mais fácil.
+A plataforma reúne informações importantes em um só lugar, como tarefas de integração, documentos, treinamentos e canais para dúvidas e feedbacks. Dessa forma, o funcionário consegue encontrar o que precisa de maneira mais fácil e organizada.
 
 ## Objetivo do projeto
 
 O objetivo é criar uma plataforma simples e fácil de usar, que ajude os novos funcionários durante o período de integração com a empresa.
 
-## Funcionalidades do sistema
+## Funcionalidades desenvolvidas
 
-O sistema está planejado para ter as seguintes funcionalidades:
-
-- **Portal de boas-vindas:** apresentar uma mensagem inicial e informações sobre a empresa.
-- **Checklist de tarefas:** mostrar as atividades que o funcionário precisa realizar.
-- **Documentos:** disponibilizar manuais e outros materiais importantes.
-- **Reuniões e treinamentos:** apresentar informações sobre reuniões e capacitações.
-- **Perguntas e respostas:** permitir que os funcionários tirem dúvidas.
-- **Feedback:** permitir que os funcionários deem sua opinião sobre o processo de integração.
+- **Portal de boas-vindas:** apresenta uma mensagem inicial para receber o funcionário.
+- **Checklist de tarefas:** permite marcar as atividades concluídas e acompanha o progresso por meio de um contador e uma barra de progresso.
+- **Documentos:** apresenta materiais e informações importantes para os funcionários.
+- **Reuniões e treinamentos:** exibe informações sobre reuniões e capacitações.
+- **Perguntas e respostas:** permite escrever e enviar dúvidas.
+- **Feedback:** permite que os funcionários compartilhem suas opiniões sobre o processo de integração.
+- **Salvamento de informações:** utiliza o armazenamento local do navegador para manter as tarefas, dúvidas e feedbacks após atualizar a página.
 
 ## Tecnologias utilizadas
 
-Para desenvolver o projeto, estou utilizando:
+- **HTML:** utilizado para criar a estrutura da página.
+- **CSS:** utilizado para organizar o visual, as cores e a apresentação do site.
+- **JavaScript:** utilizado para adicionar funcionalidades e interações.
 
-- HTML para montar a estrutura da página.
-- CSS para organizar o visual e as cores do site.
-- JavaScript para adicionar funcionalidades e interações.
+## Como executar o projeto
 
-## O que já foi desenvolvido
+1. Baixe ou clone o repositório.
+2. Abra a pasta do projeto no Visual Studio Code.
+3. Abra o arquivo `index.html`.
+4. Inicie o Live Server para visualizar o site no navegador.
 
-Nesta primeira etapa, desenvolvi a página inicial do sistema, com uma mensagem de boas-vindas, algumas informações sobre a plataforma e um botão interativo.
+## Acesso ao projeto
 
-Ainda pretendo desenvolver as outras funcionalidades conforme o andamento do projeto.
+[Portal do Funcionário - GitHub Pages](https://drcadu090.github.io/onboarding-funcionarios/)
 
-## Como abrir o projeto
-
-Para visualizar o site, basta abrir a pasta do projeto no Visual Studio Code, abrir o arquivo `index.html` e iniciar o Live Server.
+[Repositório no GitHub](https://github.com/DRcadu090/onboarding-funcionarios)
 
 ## Autor
 
