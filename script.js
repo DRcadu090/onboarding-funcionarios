@@ -66,9 +66,8 @@ function mostrarPerguntas() {
     });
 }
 
-
 function enviarFeedback() {
-    let campo = document.getElementById("feedback");
+    let campo = document.getElementById("campoFeedback");
     let mensagem = document.getElementById("mensagemFeedback");
 
     let opiniao = campo.value.trim();
@@ -86,9 +85,10 @@ function enviarFeedback() {
 
     mensagem.textContent = "Obrigado por compartilhar sua opinião!";
 
+    mostrarFeedbacks();
+
     campo.value = "";
 }
-
 function mostrarFeedbacks() {
     let lista = document.getElementById("listaFeedbacks");
 
@@ -104,7 +104,6 @@ function mostrarFeedbacks() {
         lista.appendChild(novoFeedback);
     });
 }
-
 
 function carregarTarefas() {
     let tarefas = document.querySelectorAll(".lista-tarefas input");
