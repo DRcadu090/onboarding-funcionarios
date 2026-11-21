@@ -8,14 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<nav class="menu">
+    <a href="#inicio">Início</a>
+    <a href="#tarefas">Minhas tarefas</a>
+    <a href="#documentos">Documentos</a>
+    <a href="#treinamentos">Treinamentos</a>
+    <a href="#duvidas">Dúvidas</a>
+    <a href="#feedback">Feedback</a>
+</nav>
     <header>
         <h1>Portal do Funcionário</h1>
         <p>Bem-vindo à nossa equipe!</p>
     </header>
 
     <main>
-        <section>
+        <section id="inicio">
             <h2>Olá, seja bem-vindo!</h2>
 
             <p>
@@ -51,6 +58,120 @@
                 </div>
             </div>
         </section>
+
+<section id="tarefas">
+    <h2>Checklist de integração</h2>
+
+    <p>Marque as atividades conforme forem sendo concluídas:</p>
+
+    <div class="lista-tarefas">
+        <label>
+            <input type="checkbox" onchange="atualizarContador()">
+            Conhecer a equipe de trabalho
+        </label>
+
+        <label>
+            <input type="checkbox" onchange="atualizarContador()">
+            Conhecer a empresa e seus valores
+        </label>
+
+        <label>
+            <input type="checkbox" onchange="atualizarContador()">
+            Ler os documentos e manuais
+        </label>
+
+        <label>
+            <input type="checkbox" onchange="atualizarContador()">
+            Participar do treinamento inicial
+        </label>
+    </div>
+    <p id="contador">Tarefas concluídas: 0 de 4</p>
+
+<div class="progresso">
+    <div id="barraProgresso"></div>
+</div>
+
+</section>
+
+<section id="documentos">
+    <h2>Documentos da empresa</h2>
+
+    <p>Aqui você pode consultar alguns materiais importantes para o seu trabalho.</p>
+
+    <div class="documentos">
+        <div class="documento">
+            <h3>Manual do funcionário</h3>
+            <p>Informações sobre a empresa e orientações para o dia a dia.</p>
+            <a href="#" onclick="alert('Manual do funcionário em construção!')">Consultar documento</a>
+        </div>
+
+        <div class="documento">
+            <h3>Código de conduta</h3>
+            <p>Conheça as regras e os comportamentos esperados na empresa.</p>
+            <a href="#" onclick="alert('Código de conduta em construção!')">Consultar documento</a>
+        </div>
+
+        <div class="documento">
+            <h3>Guia de benefícios</h3>
+            <p>Consulte informações sobre os benefícios oferecidos.</p>
+            <a href="#" onclick="alert('Guia de benefícios em construção!')">Consultar documento</a>
+        </div>
+    </div>
+</section>
+
+<section id="treinamentos">
+    <h2>Reuniões e treinamentos</h2>
+
+    <p>Confira as próximas atividades da sua integração:</p>
+
+    <div class="treinamentos">
+        <div class="treinamento">
+            <h3>Apresentação da empresa</h3>
+            <p>Data: 20/11/2026</p>
+            <p>Horário: 09:00</p>
+            <p>Conheça um pouco mais sobre a história e os valores da empresa.</p>
+        </div>
+
+        <div class="treinamento">
+            <h3>Treinamento inicial</h3>
+            <p>Data: 23/11/2026</p>
+            <p>Horário: 14:00</p>
+            <p>Aprenda sobre as principais atividades do seu trabalho.</p>
+        </div>
+
+        <div class="treinamento">
+            <h3>Reunião com a equipe</h3>
+            <p>Data: 25/11/2026</p>
+            <p>Horário: 10:00</p>
+            <p>Momento para conhecer os colegas e tirar dúvidas.</p>
+        </div>
+    </div>
+</section>
+<section id="duvidas">
+    <h2>Perguntas e respostas</h2>
+
+    <p>Tem alguma dúvida? Escreva sua pergunta no espaço abaixo:</p>
+
+    <div class="perguntas">
+        <textarea id="duvida" placeholder="Digite sua dúvida..."></textarea>
+
+        <button onclick="enviarDuvida()">Enviar pergunta</button>
+
+        <div id="listaDuvidas"></div>
+    </div>
+</section>
+<section id="feedback">
+    <h2>Avaliação e feedback</h2
+
+    <p>Como está sendo sua experiência na empresa até agora?</p>
+
+    <textarea id="feedback" placeholder="Escreva sua opinião..."></textarea>
+
+    <button onclick="enviarFeedback()">Enviar feedback</button>
+
+    <p id="mensagemFeedback"></p>
+    <div id="listaFeedbacks"></div>
+</section>
     </main>
 
     <footer>
