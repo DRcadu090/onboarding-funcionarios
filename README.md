@@ -10,6 +10,12 @@ A plataforma reúne informações importantes em um só lugar, como tarefas de i
 
 O objetivo é criar uma plataforma simples e fácil de usar, que ajude os novos funcionários durante o período de integração com a empresa.
 
+## Situação-problema escolhida
+
+Novos funcionários podem encontrar dificuldades durante os primeiros dias de trabalho por não terem acesso organizado às informações, documentos, tarefas e treinamentos necessários para sua integração.
+
+O projeto busca facilitar esse processo por meio de um portal que reúne essas informações em um único ambiente.
+
 ## Funcionalidades desenvolvidas
 
 - **Portal de boas-vindas:** apresenta uma mensagem inicial para receber o funcionário.
@@ -25,6 +31,14 @@ O objetivo é criar uma plataforma simples e fácil de usar, que ajude os novos 
 - **HTML:** utilizado para criar a estrutura da página.
 - **CSS:** utilizado para organizar o visual, as cores e a apresentação do site.
 - **JavaScript:** utilizado para adicionar funcionalidades e interações.
+
+## Protótipos
+
+Os protótipos das três telas do sistema estão disponíveis na pasta `prototipos` deste repositório:
+
+- **Tela inicial e checklist:** apresenta a página de boas-vindas e as tarefas de integração.
+- **Tela de documentos e treinamentos:** apresenta os materiais e as informações sobre reuniões e capacitações.
+- **Tela de dúvidas e feedback:** apresenta os campos para envio de perguntas e opiniões.
 
 ## Como executar o projeto
 
